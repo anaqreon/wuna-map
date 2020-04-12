@@ -1,0 +1,136 @@
+/* 
+Theme Name:		 Responsive-child
+Theme URI:		 http://childtheme-generator.com/
+Description:	 Responsive-child is a child theme of Responsive, created by ChildTheme-Generator.com
+Author:			 Beverly Rauchfuss
+Author URI:		 http://childtheme-generator.com/
+Template:		 responsive
+Version:		 1.0.0
+Text Domain:	 responsive-child
+*/
+
+
+/*
+    Add your custom styles here
+*/
+
+/*
+#header {
+	background: #FFFFFF url(https://westurbana.org/wpwuna/wp-content/uploads/2019/05/carle-park4white.jpg) no-repeat 0 0;
+	background-size:contain;
+	
+	This displays small image of carle-park4white.jpg oriented to the left
+}
+*/
+body {
+	color:#496349;
+}
+
+#header {
+	background: #FFFFFF url(https://westurbana.org/wpwuna/wp-content/uploads/2019/05/carle-park4white.jpg) no-repeat 0 0;
+	background-size:cover;
+}
+	
+.site-name {
+	display: block;
+	font-size: 2.5em; /* = 40px */
+	line-height: 1.0em;
+	letter-spacing:.2em;
+	white-space:nowrap;
+}
+.site-name a {
+    word-break: normal;
+	color:#333333;
+	text-decoration:none;
+}
+.site-description {
+  color:#222; /*#1A3C76*/
+  display: block;
+  font-size:1.25em ; /*0.875em*/
+  /* = 14px */
+  margin: 10px 0;
+}
+
+/* right margin extended when padding:20px added for left and right on .grid */
+
+a {
+  color: #ec5231;  /*#0066cc*/
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #444444;
+  outline: 0;
+  text-decoration: none;
+}
+
+.menu {
+  background-color: #419641;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#419641), to(#5cb85c));
+  background-image: -webkit-linear-gradient(top, #419641, #5cb85c);
+  background-image: -moz-linear-gradient(top, #419641, #5cb85c);
+  background-image: -ms-linear-gradient(top, #419641, #5cb85c);
+  background-image: -o-linear-gradient(top, #419641, #5cb85c);
+  background-image: linear-gradient(to top, #419641, #5cb85c);
+  clear: both;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#419641, endColorstr=#5cb85c)";
+  margin: 0 auto;
+}
+.main-nav {
+    background-color: #419641;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#419641), to(#5cb85c));
+  background-image: -webkit-linear-gradient(top, #419641, #5cb85c);
+  background-image: -moz-linear-gradient(top, #419641, #5cb85c);
+  background-image: -ms-linear-gradient(top, #419641, #5cb85c);
+  background-image: -o-linear-gradient(top, #419641, #5cb85c);
+  background-image: linear-gradient(to top, #419641, #5cb85c);
+}
+.menu ul li a:hover,
+/*.menu li li a:hover {
+  color: #417441;
+  text-decoration: none;
+}
+This did not change the color of the tab showing what page a person is on*/
+.menu a {
+  border-left: 1px solid #419641;
+}
+.menu a:hover {
+  background-color: #419641;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2E8B57), to(#228b22));
+  background-image: -webkit-linear-gradient(top, #2E8B57, #228b22);
+  background-image: -moz-linear-gradient(top, #2E8B57, #228b22);
+  background-image: -ms-linear-gradient(top, #2E8B57, #228b22);
+  background-image: -o-linear-gradient(top, #2E8B57, #228b22);
+  background-image: linear-gradient(to top, #2E8B57, #228b22);
+  color: #ffffff;
+  -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#2e8b57, endColorstr=#228b22)";
+}
+
+ul.menu > li:hover {
+  background-color: #228b22;
+  color: #ffffff;
+}
+.menu .current_page_item a,
+.menu .current-menu-item a {
+  background-color: #2E8B57;
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .js .main-nav {
+        position: relative;
+    background-color: #419641;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#419641), to(#5cb85c));
+  background-image: -webkit-linear-gradient(top, #419641, #5cb85c);
+  background-image: -moz-linear-gradient(top, #419641, #5cb85c);
+  background-image: -ms-linear-gradient(top, #419641, #5cb85c);
+  background-image: -o-linear-gradient(top, #419641, #5cb85c);
+  background-image: linear-gradient(to top, #419641, #5cb85c);
+        clear: both;
+        margin: 0 auto
+    }
+}
